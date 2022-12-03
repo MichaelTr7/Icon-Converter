@@ -1,0 +1,106 @@
+
+*{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body{
+  background: #4DDDD1;
+  background-color: #4DDDD1;
+}
+
+#Background_Panel{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #4DDDD1 0%, #4A799C 100%);
+  z-index: -1;  
+}
+
+
+#App_Icon{
+  --Size: min(10vw,7rem);
+  height: var(--Size);
+  width: var(--Size);
+  background-color: grey;
+  background-image: url("./Assets/IconConverter.png");
+  border-radius: calc(0.25 * var(--Size));
+  box-shadow: 0rem 0.2rem 2rem 0.2rem rgba(0,0,0,0.3);
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+#Title{
+  font-family: Arial;
+  font-size: 7rem;
+  margin-top: 1rem;
+  color: rgb(0,0,0,0.4);
+  margin-left: 2rem;
+  font-family: Arial;
+  font-weight: bold;
+  background: linear-gradient(45deg, rgb(0,0,0,0.4) 0%, rgb(0,0,0,0.15) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  --Minimum_Window_Dimension: 10vw;
+  --Minimum_Font_Size: max(var(--Minimum_Window_Dimension),40px);
+  --Maximum_Font_Size: min(var(--Minimum_Font_Size),100px);
+  font-size: calc(0.7*var(--Maximum_Font_Size));  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+#Download_Button{
+  display: flex;
+  --Height: 3rem;
+  --Width: 13rem;
+  height: var(--Height);
+  width: var(--Width);
+  background-color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-radius: 1000rem;
+  background-color: rgba(0,0,0,0.3);
+  background-color: rgb(36,48,48,0.9);
+  color: rgba(77, 221, 209, 0.6);
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+#Download_Button:hover{
+  transform: scale(1.1);
+}
+
+#App_Preview{
+  position: relative;
+  --Height: calc(var(--Width) * 0.8);
+  --Width: min(80vw,50rem);  
+  height: var(--Height);
+  width: var(--Width);
+  top: calc(50% - var(--Height)/2);
+  left: calc(50% - var(--Width)/2);
+  background-image: url("./Assets/Icon Converter Summary Page.png");
+  --Border_Radius_Factor: 0.05;
+  --Shadow_Height: 0.03;
+  --Shadow_Blur: 0.5;
+  --Shadow_Spread: 0.3;
+  --Highlight_Height: 0.001;
+  --Highlight_Blur: 0.001;
+  --Highlight_Spread: 0;
+  --Maximum_Size: 24rem;
+  --Minimum_Size: 22rem;
+  background-size: contain;
+  
+}
+
+
