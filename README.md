@@ -13,7 +13,7 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 <br/>
 
 <p align ="center">
-<img src = "https://github.com/MichaelTr7/Portfolio/tree/master/Images/Icon Converter Summary Page.png" width = "700">
+<img src = "Icon Converter Summary Page.png" width = "700">
 </p>
 
 ### Features
@@ -23,7 +23,7 @@ A desktop widget for converting PNG images into MacOS and Windows application ic
 <br/>
 
 ### Languages/Frameworks
-<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/MichaelTr7/Portfolio/tree/master/Images/Shell_Script_Icon.png" width = "70" >
+<img src="Images/Webstack_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/ElectronJS_Logo.png" width = "62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/NodeJS_Logo.png" width = "90">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/Shell_Script_Icon.png" width = "70" >
 
 
 Resizing images and conversion from PNG to .incs and .ico takes advantage of the speed of shell scripts. NodeJS' child process module was used to connect the interface with the shell scripts. The curves of the User-Interface (UI) was implemented by writing SVG line paths in the HTML code opposed loading SVG images which allows for future flexibility. Windows .ico conversion uses png-to-ico module.
