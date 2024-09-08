@@ -8,6 +8,11 @@
 <br/>
 
 
+<p align="center">
+<a href="https://github.com/MichaelTr7/Portfolio/releases/download/IconConverter-1.0.0-MacOS/IconConverter-1.0.1.dmg"><img src="Button.png" width="20%"></a>
+</p>
+
+
 A desktop widget for converting PNG images into MacOS and Windows application icons. The core resizing and conversion methods were implemented using shell scripts while the front-end was built using HTML/CSS. The animations and keyframes were controlled with only JavaScript and CSS animations standard to the language. 
 
 <br/>
